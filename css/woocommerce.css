@@ -1,0 +1,125 @@
+
+.page-title{
+    text-align: center;
+    margin: 30px 0 60px 0 !important;
+}
+
+.product{
+    margin-top: 30px;
+
+}
+
+.posted_in a, .posted_in a:visited,
+.reset_variations,
+.woocommerce-info .showcoupon,
+.woocommerce-loop-product__title,
+.woocommerce-loop-product__title:visited{
+    color: #333 !important;
+}
+
+.posted_in a:hover,
+.woocommerce-info .showcoupon:hover,
+.woocommerce-loop-product__title:hover{
+    color: #36D2E3 !important;
+	transition: color 150ms;
+}
+
+.reset_variations:hover{
+    color: red !important;
+}
+
+/*Shop Archives Button*/
+.woocommerce #respond input#submit,
+.woocommerce a.button,
+.woocommerce button.button,
+.woocommerce input.button,
+
+/*Shop Single Button*/
+input#submit.alt, 
+.woocommerce a.button.alt, 
+.woocommerce button.button.alt, 
+.woocommerce input.button.alt,
+
+/*Shop Archives Button when disabled*/
+.woocommerce #respond input#submit.alt:disabled[disabled], 
+.woocommerce #respond input#submit.alt:disabled[disabled]:hover, 
+.woocommerce a.button.alt.disabled, .woocommerce a.button.alt.disabled:hover, 
+.woocommerce a.button.alt:disabled, .woocommerce a.button.alt:disabled:hover, 
+.woocommerce a.button.alt:disabled[disabled], .woocommerce a.button.alt:disabled[disabled]:hover, 
+.woocommerce button.button.alt.disabled, .woocommerce button.button.alt.disabled:hover, 
+.woocommerce button.button.alt:disabled, .woocommerce button.button.alt:disabled:hover, 
+.woocommerce button.button.alt:disabled[disabled], .woocommerce button.button.alt:disabled[disabled]:hover, 
+.woocommerce input.button.alt.disabled, .woocommerce input.button.alt.disabled:hover, 
+.woocommerce input.button.alt:disabled, .woocommerce input.button.alt:disabled:hover, 
+.woocommerce input.button.alt:disabled[disabled], .woocommerce input.button.alt:disabled[disabled]:hover{
+    color: #36D2E3 !important;
+    background-color: #333 !important;
+}
+
+/*Shop Archives Button*/
+.woocommerce #respond input#submit:hover,
+.woocommerce a.button:hover,
+.woocommerce button.button:hover,
+.woocommerce input.button:hover,
+
+/*Shop Single Button*/
+input#submit.alt:hover, 
+.woocommerce a.button.alt:hover, 
+.woocommerce button.button.alt:hover, 
+.woocommerce input.button.alt:hover {
+    color: pink !important;
+    background-color: #222 !important;
+    transition: color 150ms !important;
+    transition: background-color 150ms !important;
+}
+
+.woocommerce #content table.cart td.actions .input-text, 
+.woocommerce table.cart td.actions .input-text, 
+.woocommerce-page #content table.cart td.actions 
+.input-text, 
+.woocommerce-page table.cart td.actions .input-text {
+    width: 100%;
+}
+
+.summary .entry-summary p{
+    text-align: left;
+}
+
+
+.products .woocommerce-loop-product__title,
+.products .price,
+.prodcts .woocommerce #respond input#submit,
+.woocommerce a.button,
+.woocommerce button.button,
+.woocommerce input.button{
+    text-align: center;
+    align-items: center;
+}
+
+
+/*Removes "Add to Cart" button from Related Products section on single product pages*/
+.woocommerce ul.products li.product a.button {
+    display: none;
+}
+
+.woocommerce-message,
+.woocommerce-info{
+    border-top: 4px solid #00b5c9;
+}
+
+.woocommerce-message::before,
+.woocommerce-info::before{
+    color:#00b5c9;
+}
+
+
+.woocommerce-privacy-policy-text .woocommerce-privacy-policy-link,
+.woocommerce-privacy-policy-text .woocommerce-privacy-policy-link:visited{
+    color:#00b5c9 !important;
+}
+
+
+
+
+
+

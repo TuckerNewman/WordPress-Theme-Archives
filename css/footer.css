@@ -1,0 +1,45 @@
+footer{
+	display: block;
+	text-align: center;
+	height: 100%;
+	margin-top: 35px;
+	clear: both;
+}
+
+footer hr{
+	margin: 0 5%;
+    border-top: 1px #666666 solid;
+}
+
+footer img{
+	width: 1.3rem;
+	margin: 10px 23px;
+}
+
+footer p{
+	color: #666;
+    font-size: 12px;
+}
+
+.footer-menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    
+}
+
+.footer-menu li a{
+    display: block;
+	padding: 0.8rem 0.9rem;
+    color: #333333 !important;
+    text-decoration: none;
+     
+}
+
+.footer-menu a:hover{
+    color: #36D2E3 !important;
+    transition: color 150ms;
+}

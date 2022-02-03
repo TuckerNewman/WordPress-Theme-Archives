@@ -1,0 +1,124 @@
+.burger{
+	display: none;
+	width: 5%;
+}
+
+.burger div{
+
+	width: 25px;
+	height: 3px;
+	background-color: #333333;
+	margin: 5px;
+	transition: all 0.3s ease;
+	border-radius: 2px;
+
+}
+
+@media screen and (max-width: 904px) {
+
+
+	.burger{
+		display: block;
+		cursor: pointer;
+		
+	}
+
+    .top-menu{
+        display: none;
+    }
+
+	.top-menu{
+
+		left: 0px;
+		display: flex;
+		flex-direction: column;
+		margin: 10px 0;
+		width: 80%;
+		background-color: #222;
+		border-radius: 0 3px 3px 0;
+		position: absolute;
+		z-index: 10;
+		transform: translateX(-100%);
+		transition: transform 0.5s ease-in;
+		list-style-type: none;
+		overflow-x: hidden;
+		border-left: 15px #111 solid;
+	}
+
+
+	
+	.top-menu li:not(.subOptions li){
+		opacity: 0;
+		width: 100%;
+		
+	}
+
+
+	.top-menu li a{
+		padding: 22px 0;
+		
+	}
+
+	.top-menu a, a:visited{
+		color: #f3f3f3 !important;
+		
+	}
+
+	.top-menu a:hover{
+		color: #36D2E3 !important;
+		
+	}
+
+
+	.top-menu-active{
+
+		transform: translateX(0%);
+	}	
+	
+	@keyframes mainFade{
+	
+		from {
+			opacity: 0;
+			transform: translateX(0px);
+		}
+	
+		to {
+			opacity: 1;
+			transform: translateX(20px);
+		}
+	
+	}
+
+
+	.top-menu li .sub-menu{
+		display: none;
+		transition: all 0.5s ease;
+        list-style-type: none;
+        background-color: #111;
+    }
+
+	.sub-menu li{
+		opacity: 1 !important;
+	}
+
+	.sub-menu-active{
+		display: flex !important;
+		flex-direction: column !important;
+	}
+
+
+	
+	
+	.burgerX .line1{
+		transform: rotate(-45deg) translate(-5px, 6px);
+	}
+	
+	.burgerX .line2{
+		opacity: 0;
+	}
+	
+	.burgerX .line3{
+		transform: rotate(45deg) translate(-5px, -6px);
+	}
+
+}
