@@ -21,5 +21,5 @@ To see an example of the theme's use, visit anxiousarchives.com
 
 Notes:
 
-    - Banner is hard coded into the header.php file
-    - Social icons and links to said social websites in the footer.php file are also hard coded.
+   - Banner is hard coded into the header.php file
+   - Social icons and links to said social websites in the footer.php file are also hard coded.
