@@ -15,10 +15,6 @@
     - Content adjusts to screen size
 
 
-
-To see an example of the theme's use, visit anxiousarchives.com
-
-
 Notes:
 
    - Banner is hard coded into the header.php file
